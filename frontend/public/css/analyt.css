@@ -1,0 +1,61 @@
+.analytics-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.analytics-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.analytics-form input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.analytics-form button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.analytics-form button:hover {
+  background-color: #0f59c9;
+}
+
+.analytics-result {
+  margin-top: 2rem;
+  text-align: left;
+  background-color: #f0f6ff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.analytics-result p {
+  margin: 0.5rem 0;
+}
+
+.analytics-error {
+  color: red;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .analytics-container {
+    padding: 1rem;
+  }
+
+  .analytics-result {
+    font-size: 0.95rem;
+  }
+}
